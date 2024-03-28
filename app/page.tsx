@@ -76,7 +76,7 @@ export default function Home() {
       <h1 className="text-5xl font-bold  mt-[80px]">
       <Slide direction="up">
       <div className="bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 bg-clip-text text-transparent text-5xl sm:text-[70px]">
-      Hi I'm a
+      Hi,I am a
       </div>
       </Slide>
       <Slide direction="up">
@@ -103,23 +103,23 @@ export default function Home() {
 
      <div className="flex justify-center space-x-5">
      <Slide direction="up">
-     <a href="https://www.linkedin.com/in/saravanakumar-v-39447427b/"><Image src={linkedin} className="w-[60px]"/></a>
-     <a href="https://github.com/mr-saravanakumar"><Image src={github}  className="w-[60px]"/></a>
-     <a href="mr.saravanakumar2002@gmailc.com"><Image src={mail} className="w-[70px]"/></a>
+     <a href="https://www.linkedin.com/in/saravanakumar-v-39447427b/"><Image src={linkedin} alt="linkedIn" className="w-[60px]"/></a>
+     <a href="https://github.com/mr-saravanakumar"><Image src={github} alt="github" className="w-[60px]"/></a>
+     <a href="mr.saravanakumar2002@gmailc.com"><Image src={mail} alt="mail" className="w-[70px]"/></a>
      </Slide>
     </div>
        
      
      <div className="flex justify-center items-center space-x-5">
      <Slide direction="up">
-      <Image src={phone} className="w-10"/>
+      <Image src={phone} alt="phone" className="w-10"/>
       <p className="text-xl ">6381590532</p>
     </Slide>
     </div>
 
       <div className="flex justify-center">
       <Slide direction="up">
-        <Image src={working} className="w-[100%] bg-none"/>
+        <Image src={working} alt="animationImg" className="w-[100%] bg-none"/>
       </Slide>
       </div>
 
@@ -149,7 +149,7 @@ export default function Home() {
       <div className="space-y-10 sm:pl-10">
       <div>
       <Slide direction="up">
-        <p>Hi there! I'm ,<span className="text-zinc-500">Saravanakumar</span>, a passionate full stack web developer with a knack for crafting dynamic and user-friendly web applications. With a strong foundation in both front-end and back-end technologies, I thrive on turning ideas into interactive digital experiences.</p>
+        <p>Hi there! I am ,<span className="text-zinc-500">Saravanakumar</span>, a passionate full stack web developer with a knack for crafting dynamic and user-friendly web applications. With a strong foundation in both front-end and back-end technologies, I thrive on turning ideas into interactive digital experiences.</p>
       </Slide>
       </div>
 

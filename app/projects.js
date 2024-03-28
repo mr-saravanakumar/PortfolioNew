@@ -1,5 +1,5 @@
 'use client';
-export default[
+const projects=[
 {
    id:1,
    name:"Product Reselling Application",
@@ -43,3 +43,4 @@ export default[
 }
 
 ]
+export default projects;
